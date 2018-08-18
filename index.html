@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+        
+        <div class="row spacing headerRow">
+            <div class="col col-md-3 headerCol ">
+                <h1 class="crystalHead">CrystalsCollector!</h1>
+            </div>
+        </div>
+        <div class="row spacing">
+            <div class="col col-md-4 paragraphCol ">
+                <p class="paragraphs">You will be given a random number at the start of the game.</p>
+                <p class="paragraphs">There are four crystals below. By clicking on a crystal you will
+                    add a specific amount of points to your total score.
+                </p>
+                <p class="paragraphs">You win the game by matching your total score to the random number, and
+                    you lose the game if your total score goes above the random number.
+                </p>
+                <p class="paragraphs">The value of each crystal is hiddin from you until you click on it.</p>
+                <p class="paragraphs">Each time when the game starts, the game will change the values of each crystal.</p>
+            
+            </div>
+        </div>
+        <div class="row spacing thirdRow">
+            <div class="col col-md-2 thirdCol1 ">
+                <span id="guess-text">0</span>
+            </div>
+            <div class="col col-md-1 thirdCol2">
+                    Wins:<span id="wins"></span>
+                    <br/>
+                    Losses:<span id="losses"></span>
+            </div>
+            <div class="col col-md-1 thirdCol3">
+                    <span id="notification"></span>
+            </div>
+        </div>
+        <div class="row spacing">
+            <div class="col col-md-1 ">
+                    <img class="crystalImage" id="crystalImage1" src="assets/images/crystal1.png" alt="crystal1">
+            </div>
+            
+            <div class="col col-md-1 ">
+                    <img class="crystalImage" id="crystalImage2" src="assets/images/crystal2.png" alt="crystal2">
+            </div>
+            
+            <div class="col col-md-1 ">
+                    <img class="crystalImage" id="crystalImage3" src="assets/images/crystal3.png" alt="crystal3">
+            </div>
+            
+            <div class="col col-md-1 ">
+                    <img class="crystalImage" id="crystalImage4" src="assets/images/crystal4.png" alt="crystal4">
+            </div>
+        </div>
+        
+        <div class="row spacing">
+                <div class="col col-md-3 fifthCol ">
+                    Your total score is:
+                </div>
+        </div> 
+        <div class="row spacing sixthRow">
+                <div class="col col-md-2 sixthCol ">
+                    <span id="userGuess-text">0</span>
+                </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  </body>
+
+</html>

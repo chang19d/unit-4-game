@@ -1,0 +1,97 @@
+body, html .container-fluid {
+    height: 100%;
+}
+body{
+    background:transparent;
+}
+
+html { 
+    background: url('../images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.crystalImage{
+    height:auto;
+    width: 100%;
+    
+}
+
+.crystalHead{
+    text-align:center;
+    padding-top:2%;
+    color:white;
+}
+.headerRow{
+    height:10%;
+}
+.headerCol{
+    background-color:transparent;
+    
+}
+
+.spacing{
+    margin-top:1%;
+    margin-left:0.25%;
+}
+
+.paragraphCol{
+    background-color:beige;
+}
+.paragraphs{
+    padding:2%;
+}
+
+.thirdRow{
+    height:20%;
+    margin-bottom:4%;
+}
+
+.thirdCol1, .sixthCol{
+    /* background-color:rgb(1, 219, 235); */
+    background-color:transparent;
+    color:white;
+    text-align:center;
+    padding-top:2.5%;
+}
+
+.thirdCol2{
+    /* background-color:rgb(1, 219, 235); */
+    background-color:transparent;
+    color:white;
+    margin-left:1%;
+    text-align:center;
+    padding-top:2.5%;
+    font-weight:bolder;
+}
+
+.thirdCol3{
+    background-color:transparent;
+    text-align:center;
+    
+}
+
+.fifthCol{
+    /* background-color:rgb(1, 219, 235); */
+    background-color:transparent;
+    color:white;
+    font-weight:bolder;
+    font-size:1.5em;
+}
+.sixthRow{
+    margin-bottom:4%;
+    height:20%;
+}
+
+#guess-text, #userGuess-text{
+    font-size:2em;
+    font-weight:bolder;
+}
+
+#notification{
+    text-align:center;
+    
+    font-weight:bolder;
+    color:white;
+}
